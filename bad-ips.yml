@@ -1,0 +1,407 @@
+bad-ips:
+  - country: AU
+    addresses:
+    - ip: 139.99.130.0/23
+      description: OVH Australia
+      comments: none
+      service: [ssh]
+  - country: BR
+    addresses:
+    - ip: 177.10.200.0/22
+      description: isptec.com.br
+      comments: none
+      service: [all]
+    - ip: 191.9.0.0/16
+      description: Telefonica
+      comments: none
+      service: [all]
+    - ip: 191.176.0.0/14
+      description: Claro NXT Telecom
+      comments: none
+      service: [all]
+    - ip: 200.207.0.0/16
+      description: Telefonica Brasil
+      comments: none
+      service: [all]
+  - country: CA
+    addresses:
+    - ip: 162.218.126.128/27
+      description: SPDNETWORK
+      comments: none
+      service: [ssh]
+    - ip: 189.56.0.0/15
+      description: Telefonica Brasil
+      comments: none
+      service: [ssh]
+    - ip: 198.50.173.144/29
+      description: OVH Canada
+      comments: none
+      service: [ssh]
+  - country: CL
+    addresses:
+    - ip: 164.77.0.0/17
+      description: Entel
+      comments: none
+      service: [all]
+  - country: CN
+    addresses:
+    - ip: 1.80.0.0/13
+      description: Chinanet
+      comments: none
+      service: [all]
+    - ip: 39.64.0.0/11
+      description: China Unicom
+      comments: none
+      service: [all]
+    - ip: 61.177.0.0/16
+      description: Chinanet
+      comments: none
+      service: [all]
+    - ip: 103.239.244.0/22
+      description: China Academy of Sciences
+      comments: none
+      service: [all]
+    - ip: 106.12.128.0/18
+      description: Baidu
+      comments: none
+      service: [all]
+    - ip: 113.56.0.0/15
+      description: China Unicom
+      comments: none
+      service: [all]
+    - ip: 115.226.128.0/17
+      description: Chinanet
+      comments: none
+      service: [all]
+    - ip: 119.162.0.0/15
+      description: CHINA169 network
+      comments: none
+      service: [all]
+    - ip: 124.220.0.0/14
+      description: Tencent
+      comments: none
+      service: [all]
+    - ip: 139.198.0.0/16
+      description: Yunify
+      comments: none
+      service: [all]
+    - ip: 180.76.171.0/24
+      description: Baidu
+      comments: none
+      service: [all]
+    - ip: 180.96.0.0/11
+      description: Chinanet
+      comments: none
+      service: [all]
+    - ip: 218.92.0.0/16
+      description: Chinanet
+      comments: none
+      service: [all]
+    - ip: 221.196.0.0/15
+      description: China Unicom
+      comments: none
+      service: [all]
+    - ip: 223.240.0.0/13
+      description: Chinanet
+      comments: none
+      service: [all]
+  - country: CO
+    addresses:
+    - ip: 161.18.0.0/16
+      description: Colombia Telecomunicaciones S.A.
+      comments: none
+      service: [all]
+    - ip: 190.144.0.0/14
+      description: Telmex Colombia S.A.
+      comments: none
+      service: [all]
+  - country: CY
+    addresses:
+    - ip: 152.89.196.0/24
+      description: Starcrecium
+      comments: none
+      service: [all]
+  - country: DE
+    addresses:
+    - ip: 87.106.0.0/16
+      description: IONOS
+      comments: formerly 1&1 Hosting
+      service: [ssh]
+  - country: ES
+    addresses:
+    - ip: 2.139.0.0/16
+      description: Tecnicos Telefonica de Espana
+      comments: none
+      service: [ssh]
+  - country: FR
+    addresses:
+    - ip: 5.48.0.0/14
+      description: Bouygues Telecom SA
+      comments: none
+      service: [all]
+    - ip: 51.15.0.0/16
+      description: Scaleway
+      comments: none
+      service: [ssh]
+    - ip: 82.64.0.0/14
+      description: Proxad
+      comments: none
+      service: [ssh]
+  - country: HK
+    addresses:
+    - ip: 92.255.85.0/24
+      description: Chang Way
+      comments: none
+      service: [ssh]
+    - ip: 128.14.232.0/24
+      description: Zenlayer/Ucloud
+      comments: none
+      service: [ssh]
+  - country: ID
+    addresses:
+    - ip: 103.20.188.0/24
+      description: PT Jala Lintas Media
+      comments: none
+      service: [all]
+    - ip: 103.111.250.0/24
+      description: PT Tujuh Delapan Sembilan Net / JATAYU
+      comments: none
+      service: [all]
+    - ip: 103.129.220.0/23
+      description: PT Cloud Hosting Indonesia
+      comments: none
+      service: [all]
+    - ip: 122.248.32.0/20
+      description: Telekomunikasi Indonesia
+      comments: none
+      service: [all]
+  - country: IN
+    addresses:
+    - ip: 49.36.32.0/20
+      description: Reliance Jio Infocomm
+      comments: none
+      service: [all]
+  - country: IR
+    addresses:
+    - ip: 2.189.59.0/24
+      description: Taba game server
+      comments: none
+      service: [all]
+  - country: IT
+    addresses:
+    - ip: 89.97.0.0/16
+      description: Fastweb Networks
+      comments: none
+      service: [ssh]
+  - country: KR
+    addresses:
+    - ip: 106.240.0.0/12
+      description: BORANET
+      comments: none
+      service: [ssh]
+    - ip: 211.45.128.0/18
+      description: Korea Telecom
+      comments: none
+      service: [ssh]
+    - ip: 211.252.80.0/21
+      description: Korea Telecom
+      comments: none
+      service: [ssh]
+  - country: LT
+    addresses:
+    - ip: 141.98.10.0/24
+      description: Hostbaltic
+      comments: none
+      service: [all]
+    - ip: 152.89.251.0/24
+      description: UAB Linama
+      comments: none
+      service: [all]
+  - country: NL
+    addresses:
+    - ip: 5.39.189.0/24
+      description: ColoCenter
+      comments: none
+      service: [ssh]
+    - ip: 45.148.120.0/24
+      description: Phanes Networks B.V.
+      comments: none
+      service: [ssh]
+    - ip: 185.224.128.0/24
+      description: Alsycon B.V.
+      comments: none
+      service: [ssh]
+    - ip: 195.133.40.0/24
+      description: des.capital
+      comments: none
+      service: [ssh]
+  - country: NP
+    addresses:
+    - ip: 202.50.52.0/24
+      description: Netmax
+      comments: none
+      service: [ssh]
+  - country: PA
+    addresses:
+    - ip: 179.43.128.0/18
+      description: Private Layer Inc
+      comments: none
+      service: [all]
+  - country: RU
+    addresses:
+    - ip: 51.250.0.0/17
+      description: Yandex
+      comments: cloud compute?
+      service: [all]
+    - ip: 91.232.225.0/24
+      description: Etersoft
+      comments: none
+      service: [all]
+    - ip: 194.58.109.0/24
+      description: reg.ru
+      comments: none
+      service: [all]
+    - ip: 195.226.194.0/24
+      description: Infolink LLC
+      comments: none
+      service: [all]
+  - country: RW
+    addresses:
+    - ip: 41.197.28.0/22
+      description: Broadband Systems Corporation
+      comments: none
+      service: [all]
+  - country: SG
+    addresses:
+    - ip: 13.156.13.0/24
+      description: Tencent
+      comments: none
+      service: [all]
+  - country: TH
+    addresses:
+    - ip: 110.49.128.0/20
+      description: ais.co.th
+      comments: none
+      service: [ssh]
+    - ip: 202.129.204.0/23
+      description: NIPA TECHNOLOGY
+      comments: none
+      service: [ssh]
+    - ip: 203.172.56.192/27
+      description: Interlink Telecom
+      comments: none
+      service: [ssh]
+  - country: TW
+    addresses:
+    - ip: 61.58.24.0/23
+      description: SHIH-HSIN CABLE Television Inc
+      comments: none
+      service: [all]
+  - country: UG
+    addresses:
+    - ip: 41.221.80.0/20
+      description: Airtel Uganda
+      comments: none
+      service: [all]
+  - country: UK
+    addresses:
+    - ip: 94.76.192.0/18
+      description: BlueConnex
+      comments: none
+      service: [ssh]
+  - country: US
+    addresses:
+    - ip: 20.192.0.0/10
+      description: Microsoft
+      comments: Azure?
+      service: [ssh]
+    - ip: 34.64.0.0/10
+      description: Google
+      comments: cloud compute?
+      service: [ssh]
+    - ip: 64.225.0.0/17
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 64.227.128.0/18
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 68.183.0.0/16
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 104.40.0.0/13
+      description: Microsoft
+      comments: Azure?
+      service: [ssh]
+    - ip: 137.116.0.0/16
+      description: Microsoft
+      comments: Azure?
+      service: [ssh]
+    - ip: 142.93.0.0/16
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 147.182.128.0/17
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 159.65.0.0/16
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 159.223.0.0/16
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 167.172.0.0/16
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 188.166.240.0/20
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 192.241.128.0/17
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+    - ip: 205.214.64.0/19
+      description: Databank Holdings
+      comments: none
+      service: [ssh]
+    - ip: 2604:a880::/32
+      description: DigitalOcean
+      comments: none
+      service: [ssh]
+  - country: VE
+    addresses:
+    - ip: 179.60.147.0/24
+      description: SafeVPN
+      comments: safe-vpn.mobi
+      service: [all]
+  - country: VN
+    addresses:
+    - ip: 103.114.104.0/22
+      description: vietserver.vn
+      comments: none
+      service: [all]
+    - ip: 210.211.96.0/19
+      description: Viettel
+      comments: none
+      service: [all]
+  - country: XX
+    addresses:
+    - ip: 43.154.115.215
+      description: unknown
+      comments: whois is empty
+      service: [all]
+    - ip: 81.68.0.0/14
+      description: unknown
+      comments: whois is empty
+      service: [all]
+    - ip: 113.30.188.0/22
+      description: unknown
+      comments: whois is empty
+      service: [all]
