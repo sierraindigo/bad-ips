@@ -49,6 +49,10 @@ bad-ips:
       description: Chinanet
       comments: none
       service: [all]
+    - ip: 36.128.0.0/11
+      description: China Mobile
+      comments: SMTP auth attempts
+      service: [all]
     - ip: 39.64.0.0/11
       description: China Unicom
       comments: none
@@ -77,6 +81,10 @@ bad-ips:
       description: CHINA169 network
       comments: none
       service: [all]
+    - ip: 123.180.0.0/14
+      description: Chinanet
+      comments: SMTP auth attempts
+      service: [all]
     - ip: 124.220.0.0/14
       description: Tencent
       comments: none
@@ -100,6 +108,10 @@ bad-ips:
     - ip: 221.196.0.0/15
       description: China Unicom
       comments: none
+      service: [all]
+    - ip: 223.64.0.0/11
+      description: China Mobile
+      comments: SMTP auth attempts
       service: [all]
     - ip: 223.240.0.0/13
       description: Chinanet
@@ -180,6 +192,10 @@ bad-ips:
     - ip: 49.36.32.0/20
       description: Reliance Jio Infocomm
       comments: none
+      service: [all]
+    - ip: 103.199.207.0/24
+      description: Railtel
+      comments: SMTP auth attempts
       service: [all]
   - country: IR
     addresses:
@@ -291,6 +307,10 @@ bad-ips:
       description: Interlink Telecom
       comments: none
       service: [ssh]
+    - ip: 210.86.128.0/18
+      description: True Internet Corporation Co. Ltd.
+      comments: SMTP auth attempts
+      service: [all]
   - country: TW
     addresses:
     - ip: 61.58.24.0/23
@@ -302,6 +322,10 @@ bad-ips:
     - ip: 41.221.80.0/20
       description: Airtel Uganda
       comments: none
+      service: [all]
+    - ip: 196.0.0.0/16
+      description: Uganda Telecom
+      comments: SMTP auth attempts
       service: [all]
   - country: UK
     addresses:
