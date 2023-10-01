@@ -23,6 +23,10 @@ bad-ips:
       description: Telefonica Brasil
       comments: none
       service: [all]
+    - ip: 2804:d40::/28
+      description: Telemar Norte Leste S.A.
+      comments: Suspicious recon activity
+      service: [all]
   - country: CA
     addresses:
     - ip: 162.218.126.128/27
@@ -407,6 +411,10 @@ bad-ips:
       service: [all]
   - country: VN
     addresses:
+    - ip: 103.110.32.0/23
+      description: Long VPS
+      comments: Hosting botnet C2/file dropper infra
+      service: [all]
     - ip: 103.114.104.0/22
       description: vietserver.vn
       comments: none
