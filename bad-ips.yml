@@ -85,6 +85,10 @@ bad-ips:
       description: CHINA169 network
       comments: none
       service: [all]
+    - ip: 121.46.0.0/18
+      description: Guangdong Aofei Data Technology Co
+      comments: Suspicious HTTP requests
+      service: [all]
     - ip: 123.180.0.0/14
       description: Chinanet
       comments: SMTP auth attempts
@@ -273,6 +277,10 @@ bad-ips:
       description: Yandex
       comments: cloud compute?
       service: [all]
+    - ip: 83.97.73.0/24
+      description: Red Byte LLC
+      comments: Suspicious HTTP requests
+      service: [all]
     - ip: 91.232.225.0/24
       description: Etersoft
       comments: none
@@ -347,6 +355,10 @@ bad-ips:
       description: Google
       comments: cloud compute?
       service: [ssh]
+    - ip: 35.192.0.0/12
+      description: Google Cloud
+      comments: used for Palo Alto Expanse recon/scanning
+      service: [all]
     - ip: 64.225.0.0/17
       description: DigitalOcean
       comments: none
@@ -387,6 +399,10 @@ bad-ips:
       description: DigitalOcean
       comments: none
       service: [ssh]
+    - ip: 162.216.148.0/22
+      description: Google Cloud
+      comments: used for Palo Alto Expanse recon/scanning
+      service: [all]
     - ip: 167.172.0.0/16
       description: DigitalOcean
       comments: none
@@ -399,6 +415,14 @@ bad-ips:
       description: DigitalOcean
       comments: none
       service: [ssh]
+    - ip: 198.235.24.0/24
+      description: Palo Alto Networks
+      comments: used for Expanse recon/scanning
+      service: [all]
+    - ip: 205.210.31.0/24
+      description: Palo Alto Networks
+      comments: used for Expanse recon/scanning
+      service: [all]
     - ip: 205.214.64.0/19
       description: Databank Holdings
       comments: none
